@@ -1,0 +1,27 @@
+Great! Let's walk through how to create a form using HTML and optionally add CSS for styling.
+
+Here’s a basic HTML form example that can be used for collecting contact information:
+
+
+🔹 Basic HTML Form (Contact Form Example)
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Form</title>
+</head>
+<body>
+
+<h2>Contact Us</h2>
+
+<form action="/submit-form" method="POST">
+<label for="name">Full Name:</label><br>
+<input type="text" id="name" name="name" required><br><br>
+
+<label for="email">Email Address:</label><br>
+<input type="email" id="email" name="email" required><br><br>
+
+<label for="phone">Phone Number:</label><br>
+<input type="tel" id="phone" name="phone"><br><br>
+
+<label for="message">Message:</label><br>
+<textarea id="message" name="message"
